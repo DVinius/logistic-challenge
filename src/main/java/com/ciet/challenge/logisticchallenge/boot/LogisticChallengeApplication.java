@@ -1,4 +1,4 @@
-package com.ciet.challenge.logisticchallenge;
+package com.ciet.challenge.logisticchallenge.boot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
