@@ -18,7 +18,7 @@ public class DeliveryBean {
     private Integer delivery;
 
     @Column(name = "id_vehicle")
-    private Integer clientName;
+    private Integer vehicle;
     
     @OneToMany
 	@JoinColumn(name="id_delivery")
@@ -32,12 +32,12 @@ public class DeliveryBean {
 		this.delivery = delivery;
 	}
 
-	public Integer getClientName() {
-		return clientName;
+	public Integer getVehicle() {
+		return vehicle;
 	}
 
-	public void setClientName(Integer clientName) {
-		this.clientName = clientName;
+	public void setVehicle(Integer clientName) {
+		this.vehicle = clientName;
 	}
     
 }
